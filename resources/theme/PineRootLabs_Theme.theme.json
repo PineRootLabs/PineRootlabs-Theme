@@ -1,11 +1,28 @@
 {
   "name": "PineRootLabs Theme",
-  "author": "YourCompany",
+  "author": "https://github.com/PineRootLabs",
   "dark": true,
+  "editorScheme": "/PineRootLabs.xml",
   "colors": {
-    "primaryRed": "#821010"
+    "matrixGreen": "#00ff66",
+    "pineGreen": "#013220",
+    "mentaHighlight": "#a3ffd6"
   },
   "ui": {
-    "Button.background": "primaryRed"
+    "*": {
+      "background": "#0d1117",
+      "foreground": "#00ff66",
+      "selectionBackground": "matrixGreen",
+      "selectionForeground": "#000000"
+    },
+    "Button.background": "pineGreen",
+    "Button.foreground": "matrixGreen",
+    "Button.startBackground": "pineGreen",
+    "Button.endBackground": "#02442d",
+    "Button.focusedBorderColor": "matrixGreen",
+    "Badge.blueBackground": "pineGreen",
+    "Badge.blueForeground": "mentaHighlight",
+    "ScrollBar.background": "#161b22",
+    "ScrollBar.thumb": "matrixGreen"
   }
 }
