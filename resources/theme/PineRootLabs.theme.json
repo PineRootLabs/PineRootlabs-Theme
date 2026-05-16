@@ -2,11 +2,11 @@
   "name": "Theme PineRoot Labs",
   "author": "Dev Caio Rodrigo",
   "dark": true,
-  "editorScheme": "/themes/PineRootLabs.xml",
+  "editorScheme": "/theme/PineRootLabs.xml",
   "ui": {
     "*": {
       "background": "#121814",
-      "foreground": "#A3B899",
+      "foreground": "#00FF66",
       "infoForeground": "#4E8752",
       "selectionBackground": "#1B3B2B",
       "selectionForeground": "#E8F5E9"
