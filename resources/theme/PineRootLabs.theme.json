@@ -1,0 +1,39 @@
+{
+  "name": "Theme PineRoot Labs",
+  "author": "Dev Caio Rodrigo",
+  "dark": true,
+  "editorScheme": "/themes/PineRootLabs.xml",
+  "ui": {
+    "*": {
+      "background": "#121814",
+      "foreground": "#A3B899",
+      "infoForeground": "#4E8752",
+      "selectionBackground": "#1B3B2B",
+      "selectionForeground": "#E8F5E9"
+    },
+    "ActionButton": {
+      "hoverBackground": "#1F3A2B",
+      "pressedBackground": "#152E20"
+    },
+    "ComboBox": {
+      "modifiedItemForeground": "#00FF66"
+    },
+    "Link": {
+      "activeForeground": "#00FF66",
+      "hoverForeground": "#2E7D32"
+    },
+    "ProgressBar": {
+      "passedColor": "#00FF66",
+      "progressColor": "#2E7D32"
+    },
+    "StatusBar": {
+      "background": "#0D130F"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#0D130F",
+        "inactiveBackground": "#0D130F"
+      }
+    }
+  }
+}

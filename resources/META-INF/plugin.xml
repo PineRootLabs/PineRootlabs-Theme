@@ -10,16 +10,23 @@
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor url="https://github.com/PineRootLabs">PineRoot Labs</vendor>
 
     <idea-version since-build="251"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
-        ]]></description>
+        <h1>PineRoot Labs Theme</h1>
+        <p>A sleek, modern dark theme tailored for developers who love clean, high-contrast environments.</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+            <li>Deep dark background for reduced eye strain during long coding sessions.</li>
+            <li>Fresh mint and deep green accents for UI elements.</li>
+            <li><strong>Vibrant Neon Green</strong> highlights for variables and special keywords to boost readability.</li>
+        </ul>
+        <p>Crafted with care by Dev Caio Rodrigo.</p>
+    ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
@@ -32,8 +39,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider
-                id="c4284e0e-8309-44fb-add0-d2eb7047148c"
-                path="/theme/PineRootLabs_Theme.theme.json"/>
+        <themeProvider id="com.pinerootlabs.theme" path="/themes/PineRootLabs.theme.json"/>
     </extensions>
 </idea-plugin>
