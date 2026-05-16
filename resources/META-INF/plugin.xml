@@ -2,6 +2,7 @@
 <idea-plugin>
     <id>com.pinerootlabs.theme</id>
     <name>PineRootLabs Theme</name>
+    <version>1.0.0</version>
     <category>UI</category>
     <vendor url="https://github.com/PineRootLabs">PineRoot Labs</vendor>
 
